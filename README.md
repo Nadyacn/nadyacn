@@ -1,1 +1,1 @@
-nadyacn.github.io/nadyacn/
+nadyacn/nadyacn/
