@@ -1,1 +1,1 @@
-https://nadyacn.github.io/nadyacn/
+nadyacn.github.io/nadyacn/
