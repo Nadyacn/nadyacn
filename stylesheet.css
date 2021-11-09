@@ -1,1 +1,233 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body, ul, ol, li, h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato";
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body{
+    background-color: #FFEBFA;
+}
+
+header {
+    background-color: #FFEBFA;
+    position: fixed;
+    top: 0;
+    z-index: 0;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #FFEBFA;
+    right: 20px;
+    padding: 0 25px;
+}
+
+.logo {
+    width: 300px;
+    font-weight: bolder;
+    margin-top: 0px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 45px;
+    left: 148px;
+}
+
+.logo img{
+    margin-inline: 0px;
+}
+
+.header-left {
+    float: left;
+    line-height: 45px;
+    margin-right: 0px;
+    position: absolute;
+    width: 412px;
+    height: 96px;
+    left: 78px;
+    top: 8px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 45px;
+    /* or 159% */
+    color: #000000;
+}
+
+.header-right {
+    float: right;
+    margin-right: 0px;
+    position: absolute;
+    width: 404px;
+    height: 38px;
+    left: 905px;
+    top: 0px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 65px;
+    /* or 159% */
+    color: #000000;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: black;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+
+.header-right a:hover {
+    background-color: #FBBBF5;
+}
+
+span.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+}
+
+.container h2{
+    position: absolute;
+    width: 339px;
+    height: 27px;
+    left: 501px;
+    top: 149px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 22px;
+    color: #000000;
+    text-align: center;
+}
+
+.container h1{
+    position: absolute;
+    width: 651px;
+    height: 38px;
+    left: 423px;
+    top: 190px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #4B3781;
+    text-shadow: 11px 4px 16px rgba(0, 0, 0, 0.18);
+}
+
+.about p{
+    position: absolute;
+    width: 529px;
+    height: 605px;
+    left: 78px;
+    top: 279px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 45px;
+    color: #000000;
+}
+
+.self-portrait img{
+    width: 551px; 
+    height: 563px; 
+    margin-right: 70px;
+    margin-top: 60px;
+    margin-left: 620px;
+}
+
+.email {
+    cursor: pointer;
+    text-transform: capitalize;
+    background: #4B3781;
+    border-radius: 5px;
+    position: absolute;
+    width: 179px;
+    height: 46px;
+    left: 78px;
+    top: 573px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    padding: 5px 35px;
+    color: #FFFFFF;
+  }
+  
+  .email a{
+      text-decoration: none;
+      color: #FFFFFF;
+  }
+
+  .resume {
+    cursor: pointer;
+    text-transform: capitalize;
+    background: #ffffff;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #4B3781;
+    position: absolute;
+    width: 179px;
+    height: 46px;
+    left: 278px;
+    top: 573px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    padding: 5px 35px;
+    color: #4B3781;
+  }
+
+  .resume a{
+    text-decoration: none;
+    color: #4B3781;  
+  }
+
+  .social-media{
+    margin-top: 500px;
+    margin-left: 78px;
+    margin-right: 12px;
+  }
+
+  .fa-instagram{
+      color: black;
+  }
 
